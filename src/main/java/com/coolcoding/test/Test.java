@@ -6,6 +6,15 @@ package com.coolcoding.test;
 public class Test {
     private String id;
     private String name;
+    private String age;
+
+    public String getAge() {
+        return age;
+    }
+
+    public void setAge(String age) {
+        this.age = age;
+    }
 
     public String getId() {
         return id;
